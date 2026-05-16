@@ -1,0 +1,13 @@
+:root {
+  --background: #ffffff;
+  --foreground: #1e3a8a;
+  --muted: #64748b;
+  --surface: rgba(37, 99, 235, 0.04);
+  --surface-strong: rgba(37, 99, 235, 0.08);
+  --stroke: rgba(37, 99, 235, 0.15);
+  --stroke-strong: rgba(37, 99, 235, 0.3);
+  --royal: #2563eb;
+  --electric: #2563eb;
+  --violet: #3b82f6;
+  --navy: #1e3a8a;
+}

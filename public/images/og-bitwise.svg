@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#030712"/>
+  <path d="M0 0h1200v630H0z" fill="url(#a)"/>
+  <path d="M80 90h1040v450H80z" fill="rgba(255,255,255,0.045)" stroke="rgba(255,255,255,0.16)" rx="8"/>
+  <path d="M120 140h420v28H120z" fill="#22d3ee" opacity=".85"/>
+  <path d="M120 200h730v76H120z" fill="white" opacity=".95"/>
+  <path d="M120 304h560v30H120z" fill="#9fb2cc" opacity=".72"/>
+  <path d="M120 354h360v30H120z" fill="#9fb2cc" opacity=".48"/>
+  <path d="M820 170h210v210H820z" fill="rgba(34,211,238,0.12)" stroke="rgba(103,232,249,0.35)" rx="8"/>
+  <path d="M860 330c48-130 92-130 140 0" stroke="#22d3ee" stroke-width="10" stroke-linecap="round"/>
+  <path d="M860 220h130M860 258h94M860 296h68" stroke="white" stroke-width="12" stroke-linecap="round" opacity=".7"/>
+  <text x="120" y="448" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="700">Bitwise Ventures Group</text>
+  <text x="120" y="500" fill="#9fb2cc" font-family="Arial, sans-serif" font-size="28">Technology, Data, Marketing and Training</text>
+  <defs>
+    <linearGradient id="a" x1="0" x2="1200" y1="0" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb" stop-opacity=".22"/>
+      <stop offset=".52" stop-color="#030712"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+</svg>
