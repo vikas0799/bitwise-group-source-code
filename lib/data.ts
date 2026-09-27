@@ -38,12 +38,12 @@ export type Testimonial = {
 };
 
 export const contactInfo = {
-  email: "contact@bitwiseventuresgroup.org",
+  email: "bitwiseventuresgroup@gmail.com",
   phone: "+91 99887 28749",
   phoneHref: "tel:+919988728749",
   whatsappHref: "https://wa.me/919988728749",
   website: "bitwiseventuresgroup.org",
-  websiteHref: "https://bitwiseventuresgroup.org",
+  websiteHref: "https://www.bitwiseventuresgroup.org",
   officeAddress: "Latghat Rohuwar, Azamgarh, Uttar Pradesh, 276136",
   proprietor: "Mrs. Ramita Patel",
   contactPerson: "Mr. Vikas Patel",
@@ -153,10 +153,10 @@ export const features: readonly Feature[] = [
     metric: "Future-ready"
   },
   {
-    title: "Expert Team",
+    title: "Founder-led",
     description:
-      "Cross-functional specialists align engineering, analytics, marketing and training under one group.",
-    metric: "Multi-domain"
+      "You work directly with the engineer who builds and teaches, not a chain of account managers.",
+    metric: "Direct access"
   },
   {
     title: "Quality & Trust",
@@ -179,7 +179,7 @@ export const features: readonly Feature[] = [
   {
     title: "Long-term Partnership",
     description:
-      "Our teams stay close after launch with optimization, training and strategic support.",
+      "We stay close after launch with fixes, training and strategic support.",
     metric: "Always-on"
   }
 ];
@@ -201,7 +201,7 @@ export const portfolioItems: readonly PortfolioItem[] = [
       "A role-based workflow platform for service teams with AI triage, SLA tracking and live dashboards.",
     image: "/images/portfolio-ai-operations.svg",
     tags: ["SaaS", "AI", "Cloud"],
-    result: "38% faster resolution"
+    result: "Concept build"
   },
   {
     title: "Executive KPI Command Center",
@@ -210,7 +210,7 @@ export const portfolioItems: readonly PortfolioItem[] = [
       "Unified Power BI reporting for revenue, operations, customer pipelines and executive review rhythms.",
     image: "/images/portfolio-kpi-command.svg",
     tags: ["Power BI", "MIS", "Automation"],
-    result: "One source of truth"
+    result: "Concept build"
   },
   {
     title: "Digital Growth Engine",
@@ -219,39 +219,18 @@ export const portfolioItems: readonly PortfolioItem[] = [
       "Full-funnel campaign architecture with brand refresh, paid acquisition and conversion analytics.",
     image: "/images/portfolio-growth-engine.svg",
     tags: ["SEO", "Ads", "Brand"],
-    result: "2.4x qualified leads"
+    result: "Concept build"
   },
   {
-    title: "Cloud Career Academy",
+    title: "Bitwise School",
     category: "Technology Training",
     description:
-      "Blended learning platform for full stack, cloud and AI training with mentor-led placement support.",
+      "Live and recorded coding courses plus a free, daily-updated opportunities portal for Indian students.",
     image: "/images/portfolio-cloud-academy.svg",
     tags: ["LMS", "Cloud", "Placement"],
-    result: "Outcome-first learning"
+    result: "Live at bitwiseschool.com"
   }
 ];
 
-export const testimonials: readonly Testimonial[] = [
-  {
-    quote:
-      "Bitwise Ventures Group brought structure to a messy transformation. The technology roadmap, dashboards and launch discipline felt like working with a much larger enterprise partner.",
-    name: "Ananya Rao",
-    role: "Chief Operating Officer",
-    company: "VertexEdge Logistics"
-  },
-  {
-    quote:
-      "The team connected product engineering with marketing outcomes. We moved from scattered tools to a scalable platform and a clear growth engine.",
-    name: "Rohan Mehta",
-    role: "Founder",
-    company: "SkillForge Labs"
-  },
-  {
-    quote:
-      "Their training division helped our analysts become confident with automation, BI and cloud workflows. The impact showed up immediately in reporting quality.",
-    name: "Meera Shah",
-    role: "Director of People Enablement",
-    company: "Northstar Retail Group"
-  }
-];
+// Add real client quotes here, only with each client's written permission.
+export const testimonials: readonly Testimonial[] = [];

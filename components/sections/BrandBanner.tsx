@@ -6,8 +6,8 @@ import { Sparkles, Award, Users, Target, Zap } from "lucide-react";
 const visionPillars = [
   { icon: Target, label: "One Vision", description: "Clear direction for growth" },
   { icon: Zap, label: "Four Powers", description: "Technology, Data, Marketing, Education" },
-  { icon: Users, label: "Expert Teams", description: "Cross-functional specialists" },
-  { icon: Award, label: "Proven Results", description: "Enterprise-grade delivery" }
+  { icon: Users, label: "Founder-led", description: "Direct access to the builder" },
+  { icon: Award, label: "Honest Delivery", description: "Clear scope and pricing" }
 ] as const;
 
 export default function BrandBanner() {

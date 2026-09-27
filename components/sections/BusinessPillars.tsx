@@ -119,6 +119,15 @@ export default function BusinessPillars() {
                     <div className={cn("border-t-2 pt-4 text-sm sm:text-base font-semibold", colors.border, colors.icon)}>
                       {pillar.metric}
                     </div>
+
+                    {pillar.icon === "training" && (
+                      <a
+                        href="https://www.bitwiseschool.com"
+                        className={cn("mt-4 inline-flex items-center gap-1 text-sm font-semibold underline underline-offset-4", colors.icon)}
+                      >
+                        Visit Bitwise School &rarr;
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.div>

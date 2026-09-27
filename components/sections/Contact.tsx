@@ -36,9 +36,9 @@ const contactItems = [
 ] as const;
 
 const socialLinks = [
-  { label: "LinkedIn", href: "https://www.linkedin.com", Icon: Linkedin },
-  { label: "Twitter", href: "https://twitter.com", Icon: Twitter },
-  { label: "Facebook", href: "https://www.facebook.com", Icon: Facebook }
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/bitwise-school-of-technology-5a5296377/", Icon: Linkedin },
+  { label: "X (Twitter)", href: "https://x.com/bitwiseschool", Icon: Twitter },
+  { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61578938786384", Icon: Facebook }
 ] as const;
 
 export default function Contact() {
@@ -46,8 +46,21 @@ export default function Contact() {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setStatus("Thank you. The Bitwise team will connect with you shortly.");
-    event.currentTarget.reset();
+    // No backend yet: open the visitor's email app with the message filled in.
+    const form = new FormData(event.currentTarget);
+    const body = [
+      `Name: ${form.get("name") ?? ""}`,
+      `Email: ${form.get("email") ?? ""}`,
+      `Company: ${form.get("company") ?? ""}`,
+      "",
+      String(form.get("message") ?? "")
+    ].join("\n");
+    window.location.href = `mailto:${contactInfo.email}?subject=${encodeURIComponent(
+      "Project enquiry from bitwiseventuresgroup.org"
+    )}&body=${encodeURIComponent(body)}`;
+    setStatus(
+      `Your email app should now be open. Press Send there. If nothing opened, email ${contactInfo.email} or use WhatsApp.`
+    );
   };
 
   return (

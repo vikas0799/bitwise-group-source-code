@@ -2,8 +2,8 @@ import { Globe2, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { contactInfo, navItems, pillars } from "@/lib/data";
 
 const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com", Icon: Linkedin },
-  { label: "Twitter", href: "https://twitter.com", Icon: Twitter }
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/bitwise-school-of-technology-5a5296377/", Icon: Linkedin },
+  { label: "X (Twitter)", href: "https://x.com/bitwiseschool", Icon: Twitter }
 ] as const;
 
 export default function Footer() {
